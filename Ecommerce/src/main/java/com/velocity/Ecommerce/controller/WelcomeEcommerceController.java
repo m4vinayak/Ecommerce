@@ -12,6 +12,14 @@ public class WelcomeEcommerceController {
 	@GetMapping("/ecommerce_app")
 	public String welcome() {
 		return "Welcome to Ecommerce Application";
+		
 	}	
+	
+	@GetMapping("/hello")
+	public String hello() {
+		return "hello";
+		
+	}	
+	
 
 }
